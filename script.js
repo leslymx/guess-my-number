@@ -24,11 +24,9 @@ const mainFunctions = () => {
 document.querySelector(".check").addEventListener("click", function () {
   const guess = Number(document.querySelector(".guess").value);
 
-  // when there is no input
   if (!guess) {
     mainFunctions().displayMessage("⛔ No number!");
 
-    // when player wins
   } else if (guess === secretNumber) {
     mainFunctions().displayMessage("🎉 Correct Number!");
     document.querySelector(".number").textContent = secretNumber;
@@ -40,7 +38,6 @@ document.querySelector(".check").addEventListener("click", function () {
       document.querySelector(".highscore").textContent = highscore;
     }
 
-    // when guess is wrong
   } else if (guess !== secretNumber) {
     if (scoreInitial > 1) {
       mainFunctions().displayMessage(
@@ -49,7 +46,6 @@ document.querySelector(".check").addEventListener("click", function () {
       scoreInitial--;
       mainFunctions().modifiedScore(scoreInitial);
 
-      // when lost the game
     } else {
       mainFunctions().displayMessage("😭 You lost the game!");
       mainFunctions().modifiedScore(0);
