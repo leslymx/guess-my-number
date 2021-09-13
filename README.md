@@ -1,7 +1,7 @@
 # Game: Guess my number
 
 ### ¿Qué necesito hacer?
-Clona la repo y corre en tu server local. Puedes usar el comando
+Clona la repo, ubicate dentro de la carpeta y correlo en tu server local. Puedes usar el comando
 ```
   live-server
 ```
