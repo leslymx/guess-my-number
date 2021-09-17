@@ -16,6 +16,6 @@ En este momento podrás comenzar a jugar. Te dejo un gif para que veas su funcio
 ![](https://i.imgur.com/0VBUJJW.gif)
 
 ## Deploying on netflify
-https://app.netlify.com/sites/cout-guessmynumber
+https://cout-guessmynumber.netlify.app/
 
 
